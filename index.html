@@ -444,7 +444,7 @@
       <div onclick="showPage('bags')" style="cursor:pointer;background:var(--mid);padding:3rem;text-align:center;transition:background 0.3s;" onmouseover="this.style.background='#2f2f2f'" onmouseout="this.style.background='var(--mid)'">
         <div style="font-size:2.5rem;margin-bottom:1rem;">👜</div>
         <p style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;color:var(--gold);margin-bottom:0.5rem;">Bags</p>
-        <p style="font-size:0.65rem;letter-spacing:0.2em;color:var(--text-muted);text-transform:uppercase;">Prada · Gucci · Lacoste</p>
+        <p style="font-size:0.65rem;letter-spacing:0.2em;color:var(--text-muted);text-transform:uppercase;">Prada · Gucci · Lacoste · Balenciaga</p>
       </div>
       <div onclick="showPage('shoes')" style="cursor:pointer;background:var(--mid);padding:3rem;text-align:center;transition:background 0.3s;" onmouseover="this.style.background='#2f2f2f'" onmouseout="this.style.background='var(--mid)'">
         <div style="font-size:2.5rem;margin-bottom:1rem;">👟</div>
@@ -485,6 +485,7 @@
     <button class="brand-tab active" onclick="showBrand('bags','prada')">Prada</button>
     <button class="brand-tab" onclick="showBrand('bags','gucci')">Gucci</button>
     <button class="brand-tab" onclick="showBrand('bags','lacoste')">Lacoste</button>
+    <button class="brand-tab" onclick="showBrand('bags','balenciaga')">Balenciaga</button>
   </div>
 
   <!-- Prada -->
@@ -545,6 +546,176 @@
     </div>
     <div style="padding:4rem;text-align:center;">
       <p style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:var(--text-muted);">New arrivals coming soon…</p>
+    </div>
+  </div>
+
+  <!-- Balenciaga -->
+  <div class="brand-content" id="bags-balenciaga">
+    <div class="brand-header">
+      <p class="brand-name-large">Balenciaga</p>
+      <div class="brand-line"></div>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-image">
+          <img src="9C6B72AE-B526-43B2-81FD-294843FD955F.jpg" alt="Balenciaga 1" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 1</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga City Bag</p>
+          <p class="product-price">₱ 120,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="93C22D1A-2C82-4A88-99F0-A7237519A292.jpg" alt="Balenciaga 2" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 2</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Motorcycle Bag</p>
+          <p class="product-price">₱ 135,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="305F37EF-F0D6-4954-B921-CB25205DB54B.jpg" alt="Balenciaga 3" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 3</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Le Cagole</p>
+          <p class="product-price">₱ 145,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="AA3A90A9-5396-494D-8ADB-0B01A80E3A5F.jpg" alt="Balenciaga 4" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 4</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Crossbody</p>
+          <p class="product-price">₱ 98,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="C944F06E-89A6-4057-8F1E-E1397422761C.jpg" alt="Balenciaga 5" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 5</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Chain Bag</p>
+          <p class="product-price">₱ 110,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="image1.jpg" alt="Balenciaga 6" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 6</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Tote</p>
+          <p class="product-price">₱ 125,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="image2.jpg" alt="Balenciaga 7" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 7</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Hourglass</p>
+          <p class="product-price">₱ 155,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="image3.jpg" alt="Balenciaga 8" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 8</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Saddle Bag</p>
+          <p class="product-price">₱ 88,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_2858.jpg" alt="Balenciaga 9" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 9</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Mini City</p>
+          <p class="product-price">₱ 105,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_2859.jpg" alt="Balenciaga 10" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 10</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Classic</p>
+          <p class="product-price">₱ 115,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_2860.jpg" alt="Balenciaga 11" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 11</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Edge Bag</p>
+          <p class="product-price">₱ 130,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_2861.jpg" alt="Balenciaga 12" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 12</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Work Bag</p>
+          <p class="product-price">₱ 140,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_2862.jpg" alt="Balenciaga 13" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 13</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga First Bag</p>
+          <p class="product-price">₱ 118,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_2863.jpg" alt="Balenciaga 14" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 14</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Part Time</p>
+          <p class="product-price">₱ 128,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_6581.jpg" alt="Balenciaga 15" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 15</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Step Bag</p>
+          <p class="product-price">₱ 95,000</p>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+          <img src="IMG_6587.jpg" alt="Balenciaga 16" onerror="this.parentElement.innerHTML='<div class=\'img-placeholder\'><svg fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1\' d=\'M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z\'/></svg><span class=\'placeholder-label\'>Bag 16</span></div>'">
+          <div class="product-overlay"><button class="overlay-btn">View Details</button></div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">Balenciaga Giant City</p>
+          <p class="product-price">₱ 150,000</p>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -727,7 +898,7 @@
     <div class="footer-contact">
       <p class="footer-heading">Contact Us</p>
       <p>For inquiries and appointments,<br>reach us anytime.</p>
-      <p><a href="mailto:bvyardboutique@gmail.com">bvyardboutique@gmail.com</a></p>
+      <p><a href="/cdn-cgi/l/email-protection#5c3e2a253d2e383e332928352d29391c3b313d3530723f3331"><span class="__cf_email__" data-cfemail="3755414e564553555842435e46425277505a565e5b1954585a">[email&#160;protected]</span></a></p>
       <p><a href="tel:0917xxxxxxx">0917-xxxxxxx</a></p>
     </div>
   </footer>
@@ -737,7 +908,7 @@
   </div>
 </template>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Inject footer into all pages
   document.querySelectorAll('[id^="footer-"]').forEach(el => {
     el.innerHTML = document.getElementById('footer-template').innerHTML;
@@ -755,9 +926,8 @@
   function showBrand(page, brand) {
     // Hide all brand content for this page
     document.querySelectorAll('#page-' + page + ' .brand-content').forEach(c => c.classList.remove('active'));
-    document.querySelectorAll('#page-' + page + ' .brand-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('#' + page + '-tabs .brand-tab').forEach(t => t.classList.remove('active'));
     document.getElementById(page + '-' + brand).classList.add('active');
-    // Activate matching tab
     event.target.classList.add('active');
   }
 </script>
